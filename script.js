@@ -24,7 +24,7 @@ const loop = setInterval(() => {
         pikachu.style.animation = 'none';
         pikachu.style.left = `${pikachuPosition}px`;
 
-        pikachu.src = './Imagens/raichu2.png';
+        pikachu.src = './imagens/raichu2.png';
         pikachu.style.width = '200px';
 
         clearInterval(loop);
@@ -34,3 +34,5 @@ const loop = setInterval(() => {
 }, 10);
 
 document.addEventListener('keydown', jump);
+
+Ab
